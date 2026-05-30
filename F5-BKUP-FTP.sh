@@ -69,3 +69,6 @@ curl -T "/config/F5-Policies-$(date +%Y%m%d).tgz" --ftp-create-dirs -u $FTP_USER
 rm "/config/F5-Policies-$(date +%Y%m%d).tgz"
 
 rm /var/tmp/*.xml
+
+
+exit
